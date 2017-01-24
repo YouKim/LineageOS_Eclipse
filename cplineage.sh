@@ -23,7 +23,7 @@ find frameworks -name '*.java' -exec cp -u --parents {} $LINK_TARGET  \;
 find out -name '*.java' -exec cp -u --parents {} $LINK_TARGET  \;
 find out -name 'classes-jarjar.jar' -exec cp -u --parents {} $LINK_TARGET  \;
 
-find . -wholename ./prebuilts*android-support-v*.jar -exec cp -u --parents {} $LINK_TARGET  \;
+find . -wholename ./prebuilts*android-support-*.jar -exec cp -u --parents {} $LINK_TARGET  \;
 
 #linageOS specific parts
 
