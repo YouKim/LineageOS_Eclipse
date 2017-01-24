@@ -16,6 +16,7 @@
 	<classpathentry kind="src" path="external/hamcrest/src"/>
 	<classpathentry kind="src" path="external/tagsoup/src"/>
 	<classpathentry excluding="com/google/protobuf/AbstractMessage.java|com/google/protobuf/AbstractMessageLite.java|com/google/protobuf/AbstractParser.java|com/google/protobuf/BlockingRpcChannel.java|com/google/protobuf/BlockingService.java|com/google/protobuf/BoundedByteString.java|com/google/protobuf/ByteString.java|com/google/protobuf/CodedInputStream.java|com/google/protobuf/CodedOutputStream.java|com/google/protobuf/Descriptors.java|com/google/protobuf/DynamicMessage.java|com/google/protobuf/Extension.java|com/google/protobuf/ExtensionRegistry.java|com/google/protobuf/ExtensionRegistryLite.java|com/google/protobuf/FieldSet.java|com/google/protobuf/GeneratedMessage.java|com/google/protobuf/GeneratedMessageLite.java|com/google/protobuf/Internal.java|com/google/protobuf/InvalidProtocolBufferException.java|com/google/protobuf/LazyField.java|com/google/protobuf/LazyFieldLite.java|com/google/protobuf/LazyStringArrayList.java|com/google/protobuf/LazyStringList.java|com/google/protobuf/LiteralByteString.java|com/google/protobuf/Message.java|com/google/protobuf/MessageLite.java|com/google/protobuf/MessageLiteOrBuilder.java|com/google/protobuf/MessageOrBuilder.java|com/google/protobuf/MessageReflection.java|com/google/protobuf/Parser.java|com/google/protobuf/ProtocolMessageEnum.java|com/google/protobuf/ProtocolStringList.java|com/google/protobuf/RepeatedFieldBuilder.java|com/google/protobuf/RopeByteString.java|com/google/protobuf/RpcCallback.java|com/google/protobuf/RpcChannel.java|com/google/protobuf/RpcController.java|com/google/protobuf/RpcUtil.java|com/google/protobuf/Service.java|com/google/protobuf/ServiceException.java|com/google/protobuf/SingleFieldBuilder.java|com/google/protobuf/SmallSortedMap.java|com/google/protobuf/TextFormat.java|com/google/protobuf/UninitializedMessageException.java|com/google/protobuf/UnknownFieldSet.java|com/google/protobuf/UnmodifiableLazyStringList.java|com/google/protobuf/Utf8.java|com/google/protobuf/WireFormat.java" kind="src" path="external/protobuf/java/src/main/java"/>
+	<classpathentry kind="src" path="external/uicommon/src"/>
 	<classpathentry kind="src" path="frameworks/base/core/java"/>
 	<classpathentry kind="src" path="frameworks/base/drm/java"/>
 	<classpathentry kind="src" path="frameworks/base/graphics/java"/>
@@ -34,6 +35,20 @@
 	<classpathentry kind="src" path="frameworks/opt/telephony/src/java"/>
 	<classpathentry kind="src" path="frameworks/opt/net/voip/src/java"/>
 	<classpathentry kind="src" path="frameworks/opt/net/ims/src/java"/>
+	<classpathentry kind="src" path="frameworks/support/v7/preference/src"/>
+	<classpathentry kind="src" path="frameworks/support/v7/preference/constants"/>
+	<classpathentry kind="src" path="frameworks/base/services/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/accessibility/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/appwidget/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/backup/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/devicepolicy/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/midi/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/print/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/restrictions/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/retaildemo/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/usage/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/usb/java"/>
+	<classpathentry kind="src" path="frameworks/base/services/voiceinteraction/java"/>
 	<classpathentry kind="src" path="vendor/cmsdk/sdk/src/java"/>
 	<classpathentry kind="src" path="vendor/codeaurora/telephony/ims/src"/>
 	<classpathentry kind="src" path="out/target/common/R"/>
@@ -57,6 +72,17 @@
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/ims-ext-common_intermediates/src/src"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/org.cyanogenmod.platform.internal_intermediates/src/sdk/src/java"/>
 	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/services.core_intermediates/src/java"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/uicommon_intermediates/src"/>
+	<classpathentry kind="src" path="frameworks/base/packages/SettingsLib/src"/>
+	<classpathentry kind="src" path="frameworks/base/packages/SettingsProvider/src"/>
+	<classpathentry kind="src" path="frameworks/base/packages/Keyguard/src"/>
+	<classpathentry kind="src" path="frameworks/base/packages/SystemUI/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/APPS/SettingsProvider_intermediates/src/src"/>
+	<classpathentry excluding="src/" kind="src" path="out/target/common/obj/APPS/SettingsProvider_intermediates/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/APPS/SystemUI_intermediates/src/src"/>
+	<classpathentry excluding="src/|android/support/v14/preference/|android/support/v17/leanback/|android/support/v7/appcompat/|android/support/v7/preference/|android/support/v7/recyclerview/|com/android/settingslib/" kind="src" path="out/target/common/obj/APPS/SystemUI_intermediates/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/SystemUI-proto-tags_intermediates/src/proto/src"/>
+	<classpathentry kind="src" path="out/target/common/obj/JAVA_LIBRARIES/SystemUI-proto-tags_intermediates/src/src"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/bouncycastle_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/okhttp_intermediates/classes-jarjar.jar"/>
 	<classpathentry kind="lib" path="out/target/common/obj/JAVA_LIBRARIES/libphonenumber-platform_intermediates/classes-jarjar.jar"/>
@@ -68,7 +94,6 @@
 	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/gridlayout/libs/android-support-v7-gridlayout.jar"/>
 	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/mediarouter/libs/android-support-v7-mediarouter.jar"/>
 	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/palette/libs/android-support-v7-palette.jar"/>
-	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/preference/libs/android-support-v7-preference.jar"/>
 	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v7/recyclerview/libs/android-support-v7-recyclerview.jar"/>
 	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v13/android-support-v13.jar"/>
 	<classpathentry kind="lib" path="prebuilts/sdk/current/support/v14/preference/libs/android-support-v14-preference.jar"/>

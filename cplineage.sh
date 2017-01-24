@@ -27,9 +27,10 @@ find . -wholename ./prebuilts*android-support-v*.jar -exec cp -u --parents {} $L
 
 #linageOS specific parts
 
+find external/uicommon -name '*.java' -exec cp -u --parents {} $LINK_TARGET  \;
+
 find vendor/cmsdk/sdk -name '*.java' -exec cp -u --parents {} $LINK_TARGET  \;
 find vendor/codeaurora -name '*.java' -exec cp -u --parents {} $LINK_TARGET  \;
-
 
 #find frameworks -name 'AndroidManifest.xml' -exec cp -u --parents {} $LINK_TARGET  \;
 #find -name 'Android.mk' -exec cp -u --parents {} $LINK_TARGET  \;
